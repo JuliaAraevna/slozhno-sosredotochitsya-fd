@@ -8,11 +8,10 @@
     --title-decor-color: #000028;
     --title-color: #ff0070;
     --display-bulb: flex;
+    --bg-header-image: url(../images/cover-image-dark.png);
   }
 .rec-indicator {
     display: initial;
   }
-  .page {
-    background-image: url(../images/cover-image-dark.png);
-  }
+
 
