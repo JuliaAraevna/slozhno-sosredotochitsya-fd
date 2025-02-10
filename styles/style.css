@@ -220,7 +220,7 @@ inline-size: 100px;
 }
 
 @media (width >= 768px) {
-  .header {
+  .header-section {
     padding-inline-start: 0;
     padding-inline-end: 20px;
     padding-block-start: 15px;
@@ -315,7 +315,7 @@ inline-size: 100px;
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width >= 1024px) {
   .header-section {
     display: flex;
     align-items: start;
