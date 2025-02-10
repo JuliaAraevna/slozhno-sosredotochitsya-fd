@@ -7,15 +7,15 @@
      --title-color: #ffc2e6;
      --font-text-color: #353430;
      --decorated-zone-color: #353430;
-     --menu-button-color: #353430;   
+     --menu-button-color: #353430;
 }
 
-.rec-indicator{
+.rec-indicator {
   display: none;
 }
 
-@media (prefers-color-scheme:light){
-  :root{
+@media (prefers-color-scheme:light) {
+  :root {
      --bg-header-image: url(../images/cover-image-light.png);
      --bg-color: #fff1f7;
      --font-subject-color: #353430;
