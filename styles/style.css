@@ -25,7 +25,6 @@ margin-inline-start: 20px;
 padding-inline-end: 10px;
 border-block-start: 1px solid;
 inline-size: 100px;
-block-size: 50px;
 }
 
 .header-title {
@@ -221,7 +220,7 @@ block-size: 50px;
 }
 
 @media (width >= 768px) {
-  .header{
+  .header {
     padding-inline-start: 0;
     padding-inline-end: 20px;
     padding-block-start: 15px;
