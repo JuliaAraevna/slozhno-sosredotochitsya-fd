@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
 }
 
-.header-section {
+.header {
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -27,7 +27,7 @@ border-block-start: 1px solid;
 inline-size: 100px;
 }
 
-.header-title {
+.title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: bold;
   text-shadow: 4px 4px 0 var(--highlight-color, #ff0070);
@@ -44,7 +44,7 @@ inline-size: 100px;
   color: var(--subtitle-color, #000028);
 }
 
-.highlight {
+.title-decor {
   background-color: var(--highlight-color, #ff0070);
 }
 
@@ -100,7 +100,6 @@ inline-size: 100px;
 
 .header__theme-menu {
   justify-self: end;
-  margin: 65px 0;
   font-size: 18px;
   padding-bottom: 3px;
 }
@@ -113,16 +112,15 @@ inline-size: 100px;
 
 .header__theme-menu-button {
   border: none;
-  padding: 0 13px;
-  color: var(--menu-color, #ff0070);
-  line-height: 18px;
+  padding-inline-start: 13px;
+  padding-inline-end: 13px;
+  color: var(--menu-button-color, #ff0070);
   background-color: transparent;
-  cursor: pointer;
+  transition: outline-color 1s ease;
 }
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--menu-color, #ff0070);
-  cursor: default;
   pointer-events: none;
 }
 
@@ -133,7 +131,7 @@ inline-size: 100px;
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--menu-color, #ff0070);
+  border-block-end: 1px solid var(--menu-color, #ff0070);
 }
 
 .main {
@@ -208,9 +206,11 @@ inline-size: 100px;
   position: relative;
   display: grid;
   justify-content: center;
+  align-items: center;
   min-height: 668px;
   block-size: 100vh;
   padding-block-end: 10px;
+  padding-block-start: 10px;
   padding-inline-start: 10px;
   padding-inline-end: 10px;
   height: 100vh;
