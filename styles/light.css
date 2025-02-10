@@ -9,9 +9,11 @@
      --decorated-zone-color: #353430;
      --menu-button-color: #353430;   
 }
+
 .rec-indicator{
   display: none;
 }
+
 @media (prefers-color-scheme:light){
   :root{
      --bg-header-image: url(../images/cover-image-light.png);
@@ -24,4 +26,4 @@
      --decorated-zone-color: #353430;
      --menu-button-color: #353430;    
 }
-}  
+}
