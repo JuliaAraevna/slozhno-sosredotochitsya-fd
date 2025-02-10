@@ -20,7 +20,7 @@ margin-left: 20px;
 padding-right: 10px;
 border-top: 1px solid;
 width: 100px;
-height: 50px;
+height: 100vh;
 margin-inline-start: 20px;
 padding-inline-end: 10px;
 border-block-start: 1px solid;
@@ -213,6 +213,7 @@ inline-size: 100px;
   padding-block-end: 10px;
   padding-inline-start: 10px;
   padding-inline-end: 10px;
+  height: 100vh;
 }
 
 .footer-title {
