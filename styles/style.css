@@ -216,7 +216,7 @@
   text-shadow: 2px 2px 0 var(--fuchsia-color, #ff0070);
 }
 
-@media (width: 768px) {
+@media (min-width: 768px) {
   .header {
     padding-inline-start: 0;
     padding-inline-end: 20px;
@@ -278,7 +278,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .header {
     align-items: center;
   }
